@@ -129,7 +129,7 @@ class Point implements PointIn2D {
 
 extends //--> same as implements but for another class
 
-//super keyword for something he didnt fucking explain
+//super keyword
 
 //abstract ==> you can NOT INSTANTIATE anymore if you
 //use abstract like:
