@@ -224,7 +224,7 @@ app.use('/static', express.static(path.resolve(__dirname, 'public'))) //i dont u
 
 //receiving data from frontend
 //you have a form on the frontend, and want to receive the data on the backend when user clicks submit
-app.use('/', express.static(path.resolve(__dirname, 'public')))//this is to serve the static files like index.html and css i dont fucking know (inside the public folder in the same directory)
+app.use('/', express.static(path.resolve(__dirname, 'public')))//this is to serve the static files like index.html and css i dont know (inside the public folder in the same directory)
 
 npm i body-parser
 
