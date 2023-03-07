@@ -217,7 +217,6 @@ sum() //call the function you can
 sum.someProp = 123 //assign a property to the function
 console.dir(sum) //--> now we can view the function as an object in devTools
 //upon expanding it will show you the newly assigned someProp property as well which
-//i dont know what the fuck it means to assign a property to a function or what the point of it is
 
 const object5 = {
   x: 1,
