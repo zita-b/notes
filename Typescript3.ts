@@ -24,7 +24,7 @@ const field = document.getElementById('username') as HTMLInputElement;
 
 //GENERICS is the ability to pass a TYPE inside a FUNCTION
 
-function get3Last<Items>(items: Items[]): Items[] { //these videos are unbelievably fucking bad
+function get3Last<Items>(items: Items[]): Items[] {
   return items.slice(-3);
 }
 
